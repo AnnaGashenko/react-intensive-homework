@@ -94,6 +94,14 @@
                     background-repeat: no-repeat;
                     background-size: 1.8rem 1.8rem;
                     background-position: 6% 50%;
+
+                    &:disabled {
+                        background-color: $paletteColor8;
+
+                        &:hover {
+                            cursor:default;
+                        }
+                    }
                 }
             }
 
@@ -110,7 +118,7 @@
             display: flex;
 
             & span {
-                margin: 0 1.9rem;
+                margin: 0 1.0rem;
                 cursor: pointer;
             }
 
