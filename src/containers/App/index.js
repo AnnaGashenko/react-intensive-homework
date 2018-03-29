@@ -7,7 +7,7 @@ import { Scheduler } from 'components/Scheduler';
 
 const options = {
     api: 'https://lab.lectrum.io/hw/todo/api/',
-    token: 'uJnvVLsWaONejkbr'
+    token: ''
 };
 
 export default class App extends Component {
