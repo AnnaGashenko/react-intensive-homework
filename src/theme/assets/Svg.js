@@ -13,7 +13,7 @@ const transformSVG = (
         };
 
         static defaultProps = {
-            color1: '#f00',
+            color1: '#3B8EF3',
             width,
             height,
         };
